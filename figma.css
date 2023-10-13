@@ -1,0 +1,144 @@
+body {
+  background: white;
+}
+
+.desktop {
+  display: flex;
+  height: 144px;
+  margin-top: 48px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  width: 1440px;
+  height: 96px;
+  padding: 30px 40.016px 30px 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 549.531px;
+  justify-content: space-between;
+}
+
+img {
+  width: 78px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+ul.hr {
+  display: flex;
+  height: 36px;
+  margin-left: 25%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+ }
+  ul.hr li {
+    color: #373C42;
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    white-space: nowrap;
+  }
+
+.rectangl {
+  width: 6px;
+  height: 6px;
+  background: #A294FF;
+}
+
+.block {
+  display: flex;
+  height: 30px;
+  margin-top: 10px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.frame {
+  margin-left: 22%;
+  width: 1200px;
+  height: 464px;
+  flex-shrink: 0;
+}
+
+.text {
+  width: 1031px;
+  height: 150px;
+  text-align: center;
+}
+  .text h1 {
+    color: #373C42;
+    text-align: center;
+    font-family: Yeseva One;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .text h2 {
+    margin-left: 12%;
+    width: 773px;
+    color: #7F8893;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.25px;
+  }
+
+.thebutton {
+  width: 451;
+  height: 54px;
+  text-align: center;
+  margin-top: 42px;
+}
+  .thebutton button {
+    width: 199px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    border: 1px solid #A294FF;
+    margin-left: 53px;
+  }
+
+.vectora {
+  position: sticky;
+  width: 244.785px;
+  height: 561.625px;
+  flex-shrink: 0;
+  border: 1px solid #626263;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.vectorb {
+  position: sticky;
+  background-color: #FFF;
+  margin-left: 850px;
+  margin-top: -430px;
+  width: 424.053px;
+  height: 518.3px;
+  flex-shrink: 0;
+  border: 1px solid #626263;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.vector {
+  position: sticky;
+  background-color: #FFF;
+  width: 641px;
+  height: 637px;
+  flex-shrink: 0;
+  margin-left: 520px;
+  margin-top: 66;
+  border: 1px solid #626263;
+  border-radius: 5px;
+  fill: #FFF;
+  z-index: 10;
+}
